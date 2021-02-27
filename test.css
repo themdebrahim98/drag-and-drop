@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.text {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    text-shadow: 5px 5px 8px gray;
+    margin: 78px 0;
+}
+
+.whiteBox {
+    width: 145px;
+    height: 146px;
+    background-color: rgb(229, 236, 229);
+    display: inline-block;
+    margin-left: 180px;
+}
+
+.imgBox {
+    background: url("khan.jpg");
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    left: 15px;
+    top: 12px;
+}
+
+.hold {
+    border: 2px solid red;
+}
+
+.dashed {
+    border-style: dashed;
+    background-color: rgb(196, 179, 196);
+}
+
+.hidden {
+    display: none;
+}
